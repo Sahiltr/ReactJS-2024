@@ -6,8 +6,6 @@ function App() {
   // let count = 0;
 
   const  [counter, setCounter] = useState(0)
-
-
   const increaseValue = ()=>{
     setCounter(counter+1)
   }
